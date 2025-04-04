@@ -10,3 +10,8 @@
     display: flex;
     text-align: center;
 }
+
+.container-text{
+    display: center;
+    text-align: center;
+}
