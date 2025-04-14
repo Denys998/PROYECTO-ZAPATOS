@@ -1,0 +1,13 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 150px;
+}
+fieldset{
+    background-color: wheat;
+    padding: 20px;
+}
+html{
+    background-color: antiquewhite;
+}
