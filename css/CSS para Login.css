@@ -11,3 +11,11 @@ fieldset{
 html{
     background-color: antiquewhite;
 }
+
+div{
+    padding-bottom: 10px;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}

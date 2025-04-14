@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +7,48 @@
     <link rel="stylesheet" href="css/CSS para Login.css">
 </head>
 <body>
+    <form action="">
         <fieldset>
             <legend>Registrate</legend>
-        <div style="padding-bottom: 10px;">
-        <label for="Nombre">Nombres</label>
-        <input type="text" name="Nombre" id="">
+        <div>
+            <label for="nombre">Nombres</label>
+             <input type="text" name="nombre" id="nombre" required>
         </div>
-        <div style="padding-bottom: 10px;">
-        <label for="Apellidos">Apellidos</label>
-        <input type="text" name="Apellidos" id="">
+        <div>
+             <label for="apellidos">Apellidos</label>
+             <input type="text" name="apellidos" id="apellidos" required>
         </div>
-        <div style="padding-bottom: 10px;">
-        <label for="dni">DNI</label>
-        <input type="text" name="dni">
+        <div>
+             <label for="dni">DNI</label>
+             <input type="text" name="dni" id="dni" required>
         </div>
-        <div style="padding-bottom: 10px;">
-        <label for="dni">Correo</label>
-        <input type="email" name="correo">
+        <div>
+             <label for="correo">Correo</label>
+              <input type="email" name="correo" id="correo" required>
         </div>
-        <div style="padding-bottom: 10px;">
-        <label for="celular">Celular</label>
-        <input type="number" name="celular">
+        <div>
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" id="celular" required>
         </div>
-        <div style="padding-bottom: 15px;"></div>
-        <b>Selecciona tu genero</b>
+        <div>
+            <b>Selecciona tu genero</b>
         <br>
-        <label for="genero">Masculino</label>
-        <input type="radio" name="genero">
-        <label for="genero">Femenino</label>
-        <input type="radio" name="genero">
+         <label for="genero_masculino" >Masculino
+            <input type="radio" id="genero_masculino" name="genero" value="Masculino">  
+        </label><br>
+         <label for="genero_femenino">Femenino
+            <input type="radio" id="genero_femenino" name="genero" value="Femenino">
+        </label><br>
+        <label for="no_decirlo">Prefiero no decirlo  
+            <input type="radio" name="genero" id="no_decirlo" value="No_decirlo">
+        </label> <br>
         </div>
-        <div style="padding-top: 15px;">
-        <input type="submit" value="Reset">
-        <input type="submit" value="Enviar">
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
         </div>
        </fieldset>
+    </form>
     
     
 </body>
