@@ -4,202 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VENTA DE ZAPATILLAS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/CSS para Página principal.css">
 </head>
 <body>
-    <nav>
-        <div class="Textosuperior">
-            <img src="image/logo.avif" alt="Logo" width="100px"><hr>
-            <button onclick="location.href='login.html'">Registrar</button><hr>
-            <button onclick="location.href='inicio.html'">Iniciar Sesión</button><hr>
-            <input type="submit" value="Categorías"><hr>
-            <input type="text" placeholder="Buscar">
-            <img src="image/carrito.jpg" width="30px" alt="Carrito">
-            <img src="image/burguer.png" width="30px" alt="Menú">
-        </div>
-    </nav>
+
+    <header>
+        <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping"></i>Ver Carrito(<span id="cart-count">0</span>)</a>
+    </header>
+
+    <div class="Textosuperior">
+    <img src="image/logo 1.avif" alt="Logo" width="100px">
+    <div class="user-actions">
+        <a href="login.html" class="nav-button">Registrar</a>
+        <a href="inicio.html" class="nav-button">Iniciar Sesión</a>
+    </div>
+    </div>
+
+    <br><br>
 
     <div class="banner">
-        <img src="image/banner 1.jpg" width="600px" alt="Banner">
+        <img src="image/CROSSCOUNTRY (1).png" width="700px" height="300px" alt="Banner">
     </div>
 
-    <div class="Linea1">
-        <section class="bordes">
-            <img src="image/imagen 1.jpg" alt="Beige" width="100px">
-            <p>Zapato de montaña <b>Beige</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 380</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Beige" data-precio="380">Agregar al carrito</button><br>
-            <label for="talla1">Tallas</label>
-            <select name="Tallas" id="talla1">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/imagen 2.webp" alt="Negro" width="100px">
-            <p>Zapato de montaña <b>Negro</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 245</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Negro" data-precio="245">Agregar al carrito</button><br>
-            <label for="talla2">Tallas</label>
-            <select name="Tallas" id="talla2">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/imagen 3.webp" alt="Verde" width="100px">
-            <p>Zapato de montaña <b>Verde</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 130</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Verde" data-precio="130">Agregar al carrito</button><br>
-            <label for="talla3">Tallas</label>
-            <select name="Tallas" id="talla3">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-    </div>
-    <br>
-    <div class="Linea2">
-        <section>
-            <img src="image/zapato de montaña.jpg" alt="Gris" width="100px">
-            <p>Zapato de montaña <b>Gris</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 250</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Gris" data-precio="250">Agregar al carrito</button><br>  
-            <label for="talla4">Tallas</label>
-            <select name="Tallas" id="talla4">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/Botas negras de cuero.webp" alt="Marrón" width="100px">
-            <p>Botas de cuero <b>Marrón</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 300</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Marrón" data-precio="300">Agregar al carrito</button><br>
-            <label for="talla5">Tallas</label>
-            <select name="Tallas" id="talla5">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/Pantuflas Botín.webp" alt="Pantuflas Botín" width="100px">
-            <p>Pantuflas <b>Botín</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 270</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Botín" data-precio="270">Agregar al carrito</button><br>
-            <label for="talla6">Tallas</label>
-            <select name="Tallas" id="talla6">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
+    <br><br>
+
+    <section class="products container">
+
+        <div class="card-product">
+            <img src="image/beige-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña Beige</h4>
+                <p class="price">$80</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_negro-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña negro</h4>
+                <p class="price">$90</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_verde-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña verde</h4>
+                <p class="price">$110</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_gris-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña gris</h4>
+                <p class="price">$100</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/crema-removebg-preview-removebg-preview.png" alt="Botas">
+            <div class="product-title">
+                <h4>zapato de Montaña crema</h4>
+                <p class="price">$95</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/pantuflas-removebg-preview.png" alt="Pantuflas">
+            <div class="product-title">
+                <h4>Pantuflas Botín</h4>
+                <p class="price">$70</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapatilla_negra-removebg-preview-removebg-preview.png" alt="Zapatilla">
+            <div class="product-title">
+                <h4>Zapatillas Negras</h4>
+                <p class="price">$105</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/mocasines-removebg-preview-removebg-preview.png" alt="Mocasines">
+            <div class="product-title">
+                <h4>Mocasines Negro</h4>
+                <p class="price">$78</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/alpargatas-removebg-preview.png" alt="Alpargatas">
+            <div class="product-title">
+                <h4>Alpargatas Azul</h4>
+                <p class="price">$95</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span id="close-cart" class="close-cart">&times;</span>
+            <h3>Carrito de Compras</h3>
+            <ul id="cart-items"></ul>
+            <p id="total">Total: $0</p>
+            <button id="checkout">Confirmación de la compra</button>
+        </div>
     </div>
 
-    <br>
+    <div id="purchase-modal" class="purchase-modal">
+        <div class="purchase-content">
+            <h3>!Compra Finalizada!</h3>
+            <p>Gracias por tu compra.</p>
+            <button id="close-purchase">Cerrar</button>
+        </div>
 
-    <div class="Linea3">
-        <section>
-            <img src="image/Zapatillas negras.webp" alt="Zapatillas Negras" width="100px">
-            <p>Zapatillas <b>Negras</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 175</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Zapatillas Negras" data-precio="175">Agregar al carrito</button><br>
-            <label for="talla7">Tallas</label>
-            <select name="Tallas" id="talla7">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/Mocasines.webp" alt="Mocasines" width="100px">
-            <p>Mocasines <b>Negro</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 385</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Mocasines Negro" data-precio="385">Agregar al carrito</button><br>
-            <label for="talla8">Tallas</label>
-            <select name="Tallas" id="talla8">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
-        <hr>
-        <section>
-            <img src="image/Alpargatas.jpeg" alt="Alpargatas" width="100px">
-            <p>Alpargatas <b>Negras</b></p>
-            <p>Descripción</p>
-            <p><b>Precio: 260</b></p>
-            <input type="number" min="1" value="1" class="cantidad">
-            <button class="agregar-carrito" data-nombre="Alpargatas" data-precio="260">Agregar al carrito</button><br>            
-            <label for="talla9">Tallas</label>
-            <select name="Tallas" id="talla9">
-                <option value="40">40</option>
-                <option value="42">42</option>
-                <option value="44">44</option>
-                <option value="46">46</option>
-            </select>
-        </section>
     </div>
+
+    <br><br><br><br>
 
     <div class="container-text">
-        <p>&lt;&lt;&lt; Primera &lt;&lt; Anterior 1 <u>2</u> <u>3</u> <u>4</u> <u>5</u> <u>Siguiente&gt;</u> <u>Último&gt;&gt;&gt;</u></p>
 
-        <form>
+        <form class="Linea">
             <fieldset>
-                <legend>SOBRE NOSOTROS</legend>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis enim exercitationem molestias ab rerum vel. Voluptatem, odio et quam, suscipit harum praesentium ipsa quos nobis neque sunt sapiente. Repudiandae.</p>
+                <legend><b>SOBRE NOSOTROS</b></legend>
+                <br>
+                <p><b>Somos "CrossCountry" nos enfocamos en siempre marcan la diferencia con otras marcas, asi que si quieres saber más de nosotros puedes seguirnos en nuestras redes de aqui abajo, cualquier recomendación o alguna duda que tengas; simplemente escribenos que estas las 24horas.</b></p>
+                <br>
             </fieldset>
-
+            <br>
             <fieldset>
-                <legend>SÍGUENOS</legend>
-                <img src="image/FB.png" alt="Facebook" width="100px">
-                <img src="image/TWITTER.jpg" alt="Twitter" width="100px">
-                <img src="image/WSP.jpg" alt="WhatsApp" width="100px">
+                <legend><b>SÍGUENOS</b></legend>
+
+                <a href="https://www.facebook.com/">
+                    <img src="image/facebook 2.webp" alt="Facebook" width="110px">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img src="image/twitter.webp" alt="Twitter" width="130px">
+                </a>
+                <a href="https://web.whatsapp.com/">
+                    <img src="image/whatsapp 1.webp" alt="WhatsApp" width="125px">
+                </a>
             </fieldset>
         </form>
 
         <input type="submit" value="Términos y Condiciones">
         <input type="submit" value="Política de Cookies">
         <input type="submit" value="Política de Privacidad">
-    </div>
-    <div id="carrito">
-        <h2>Carrito de compras</h2>
-        <ul id="lista-carrito"></ul>
-        <p><strong>Total: s/<span id="total">0</span></strong></p>
     </div>
     
     <script src="scripts/script_princpal.js"></script>

@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
-    <link rel="stylesheet" href="css/CSS para Login.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/CSS para el formulario.css">
 </head>
 <body>
-    <form id="registerForm">
-        <h3>Registrarse</h3>
-        <input type="text" placeholder="Nombres" required>
+
+    <form id="purchaseForm">
+
+        <h3>Confirmación de la Compra</h3>
+        <input type="text" placeholder="Nombre" required>
         <input type="text" placeholder="Apellidos" required>
         <input type="text" id="dni" name="dni" maxlength="8" placeholder="DNI" oninput="soloNumeros(this)" required>
         <input type="email" placeholder="Correo" required>
         <input type="password" placeholder="Contraseña" required>
-        <input type="text" id="telefono" name="telefono" maxlength="9" placeholder="Telefono" oninput="soloNumeros(this)">
-        
-        <input type="submit" class="btn" value="Registrar">
+        <input type="password" placeholder="Confirma Contraseña" required>
+
+        <input type="submit" class="btn" value="Confirmar y Finalizar Compra">
+
+    </form>
+
+    <script src="scripts/script_formulario_compra.js"></script>
     
-    <script src="scripts/script_login.js"></script>
 </body>
 </html>
