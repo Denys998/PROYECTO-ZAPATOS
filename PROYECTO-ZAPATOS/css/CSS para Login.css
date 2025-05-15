@@ -1,0 +1,21 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 150px;
+}
+fieldset{
+    background-color: wheat;
+    padding: 20px;
+}
+html{
+    background-color: antiquewhite;
+}
+
+div{
+    padding-bottom: 10px;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}

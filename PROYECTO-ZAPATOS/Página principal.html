@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA DE ZAPATILLAS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/CSS para Página principal.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" id="cart-icon"><i class="fa-solid fa-cart-shopping"></i>Ver Carrito(<span id="cart-count">0</span>)</a>
+    </header>
+
+    <div class="Textosuperior">
+    <img src="image/logo.avif" alt="Logo" width="100px">
+    <div class="user-actions">
+        <a href="login.html" class="nav-button">Registrar</a>
+        <a href="inicio.html" class="nav-button">Iniciar Sesión</a>
+    </div>
+    </div>
+
+    <br><br>
+
+    <div class="banner">
+        <img src="image/CROSSCOUNTRY.png" width="700px" height="300px" alt="Banner">
+    </div>
+
+    <br><br>
+
+    <section class="products container">
+
+        <div class="card-product">
+            <img src="image/beige-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña Beige</h4>
+                <p class="price">$80</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_negro-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña negro</h4>
+                <p class="price">$90</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_verde-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña verde</h4>
+                <p class="price">$110</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapato_gris-removebg-preview.png" alt="zapato">
+            <div class="product-title">
+                <h4>Zapato de Montaña gris</h4>
+                <p class="price">$100</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/crema-removebg-preview-removebg-preview.png" alt="Botas">
+            <div class="product-title">
+                <h4>zapato de Montaña crema</h4>
+                <p class="price">$95</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/pantuflas-removebg-preview.png" alt="Pantuflas">
+            <div class="product-title">
+                <h4>Pantuflas Botín</h4>
+                <p class="price">$70</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/zapatilla_negra-removebg-preview-removebg-preview.png" alt="Zapatilla">
+            <div class="product-title">
+                <h4>Zapatillas Negras</h4>
+                <p class="price">$105</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/mocasines-removebg-preview-removebg-preview.png" alt="Mocasines">
+            <div class="product-title">
+                <h4>Mocasines Negro</h4>
+                <p class="price">$78</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+        <div class="card-product">
+            <img src="image/alpargatas-removebg-preview.png" alt="Alpargatas">
+            <div class="product-title">
+                <h4>Alpargatas Azul</h4>
+                <p class="price">$95</p>
+            </div>
+
+            <div class="product-button">
+                <i class="fa-solid fa-heart"></i>
+                <a href="#" class="add-to-cart">Agregar a carrito</a>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span id="close-cart" class="close-cart">&times;</span>
+            <h3>Carrito de Compras</h3>
+            <ul id="cart-items"></ul>
+            <p id="total">Total: $0</p>
+            <button id="checkout">Finalizar compra</button>
+        </div>
+    </div>
+
+    <div id="purchase-modal" class="purchase-modal">
+        <div class="purchase-content">
+            <h3>!Compra Finalizada!</h3>
+            <p>Gracias por tu compra.</p>
+            <button id="close-purchase">Cerrar</button>
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+
+    <div class="container-text">
+
+        <form class="Linea">
+            <fieldset>
+                <legend>SOBRE NOSOTROS</legend>
+                <p>Somos "CrossCountry" nos enfocamos en siempre marcan la diferencia con otras marcas, asi que si quieres saber más de nosotros puedes seguirnos en nuestras redes de aqui abajo, cualquier recomendación o alguna duda que tengas; simplemente escribenos que estas las 24horas.</p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>SÍGUENOS</legend>
+
+                <a href="https://www.facebook.com/">
+                    <img src="image/facebook 2.webp" alt="Facebook" width="110px">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img src="image/twitter.webp" alt="Twitter" width="130px">
+                </a>
+                <a href="https://web.whatsapp.com/">
+                    <img src="image/whatsapp 1.webp" alt="WhatsApp" width="125px">
+                </a>
+            </fieldset>
+        </form>
+
+        <input type="submit" value="Términos y Condiciones">
+        <input type="submit" value="Política de Cookies">
+        <input type="submit" value="Política de Privacidad">
+    </div>
+    
+    <script src="scripts/script_princpal.js"></script>
+</body>
+</html>
